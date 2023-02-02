@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+body, button, h1, h2, h3, h4, input, p, textarea {
+    font-family: Cera,Arial,sans-serif;
+}
+
+.Split1{
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.Split2{
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.Left {
+    left: 0;
+}
+
+.Right {
+    right: 0;
+}
+
+.RightPart{
+    background:url(testingi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.LeftPart{
+    padding: 30px;
+    margin-top:50%;
+    font-size:16px;
+}
+
+.logo {
+    position: absolute;
+    left: 32px;
+    top: 28px;
+    max-width: 174px;
+}
+
+.InputData{
+    text-align: center;
+    font-family: "Cera",Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#nameEnt{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15pt;
+}
+
+#passEnt{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15pt;
+}
+
+button{
+    margin-top: 8px;
+    width: 100%;
+    border: 0;
+    height: 48px;
+    text-align: center;
+    background: #6bafbc;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .12s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.TeacherLink {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.TeacherLink a {
+    color: #6bafbc;
+    transition: .12s ease-in-out;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.teacherlogin{
+    margin: 2% auto;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}

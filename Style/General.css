@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+body{
+    font-family: "Cera CY", Helvetica, Arial, sans-serif;
+    background: linear-gradient(#75D8FD,#06B7FB,#0277A3) no-repeat;
+    margin: auto;
+    min-height:100vh
+}
+
+h1,h2{
+    font-family: Lucida Console, Courier, monospace;
+    position: relative;
+    top: 90px;
+    text-align: center;
+}
+
+section{
+    position: absolute;
+    top:25%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.art1{
+    border: 2px solid black;
+    border-radius: 20px 0 0 20px;
+    text-overflow: clip;
+    padding: 10px;
+    margin-right: 1rem;
+    width: 300px;
+    height: auto;
+    background-color: white;
+    font-family: Lucida Console, Courier, monospace;
+}
+
+.art1:hover{
+    transform: scale(1.05);
+    transition: 0.5s linear;
+}
+
+.art2{
+    border: 2px solid black;
+    text-overflow: clip;
+    padding: 10px;
+    margin-right: 1rem;
+    width: 30%;
+    height: auto;
+    background-color: white;
+    font-family: Lucida Console, Courier, monospace;
+}
+
+.art2:hover{
+    transform: scale(1.05);
+    transition: 0.5s linear;
+}
+
+.art3{
+    border: 2px solid black;
+    border-radius: 0 20px 20px 0;
+    text-overflow: clip;
+    padding: 10px;
+    margin-right: 1rem;
+    width: 300px;
+    height:auto;
+    background-color: white;
+    font-family: Lucida Console, Courier, monospace;
+}
+
+.art3:hover{
+    transform: scale(1.05);
+    transition: 0.5s linear;
+    
+}
+
+.artspan{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}

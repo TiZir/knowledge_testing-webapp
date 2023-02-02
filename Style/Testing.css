@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+body{
+    font-family: "Cera CY", Helvetica, Arial, sans-serif;
+    font-size: 15pt;
+    background: linear-gradient(#75D8FD,#06B7FB) no-repeat;
+}
+
+table {
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    border-collapse: inherit;
+    /* border-spacing: 0; */
+    border-radius: 10px;
+}
+
+table, td{
+    border: 1px solid #595959;
+    border-radius: 10px;
+}
+
+td{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    white-space: nowrap;
+}
+
+thead,th{
+    text-align: center;
+}
+
+label,textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 2px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.but{
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    width: 50%;
+    border: 0;
+    height: 48px;
+    text-align: center;
+    background: #6bafbc;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .12s ease-in-out;
+}
+.but:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.queText{
+    width: 800px;
+    height: 200px;
+    font-size: 12pt;
+    
+}
+
+.ansText{
+    width: 800px;
+    height: 200px;
+    font-size: 12pt;
+}
+
+.InputData{
+    text-align: center;
+    font-family: "Cera",Arial,sans-serif;
+    color: #000000;
+    font-weight: 300;
+}
+#textin{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14pt;
+}
+
+input[type="radio"]{
+    width:19px;
+    height:19px;
+    cursor:pointer;
+}
